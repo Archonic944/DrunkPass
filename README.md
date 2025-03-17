@@ -1,4 +1,5 @@
 # [DrunkPass](http://64.227.19.108)
+*Created by Archonic (me), [Dandililacs](https://github.com/Dandililacs), and [Toft](https://linktr.ee/whoistoft).*
 
 Welcome to the password manager DrunkPass! Instead of having a computer manage your passwords, how about a more personal approach: Chuck.
 
