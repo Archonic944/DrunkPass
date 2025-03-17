@@ -24,7 +24,7 @@ new p5((p) => {
             p.textAlign(p.CENTER, p.CENTER);
             p.textSize(20);
             if (!userInteracted) {
-                p.text("Welcome to DrunkPass: password management for humans, by human.\nCreated by archonic, whoistoft, and  \n\nDesktop only!\nClick to begin.", p.width / 2, p.height / 2);
+                p.text("Welcome to DrunkPass: password management for humans, by human.\nCreated by Archonic944, Dandililacs (GitHub), and whoistoft (Spotify)\n\nDesktop only!\nClick to begin.", p.width / 2, p.height / 2);
             } else {
                 p.text("Loading assets... (" + loadedCount + "/" + totalAssets + ")", p.width / 2, p.height / 2);
             }
