@@ -1,0 +1,281 @@
+- opening_1:
+    - text: Ugh... urf... who is it?
+      to: opening_2
+      sound: none
+      sprite: "chuckSideways"
+- opening_2:
+    - text: Heyyyy, stop swirling your face around. It makes it hard toooo… *burp*
+      to: opening_3
+      sound: "mainloopp.mp3"
+      sprite: "chuckIdle"
+- opening_3:
+    - text: You got... you’re a new... *ahem* Are you new around here?
+      to: none
+      sound: none
+- new_user:
+    - text: Oh god, it's time for the schpiel...
+      to: new_user_2
+      sound: none
+- new_user_2:
+    - text: Uhh… Welcome to DrunkPass! We tend to take a more uhhh... artisanal, personal approach to password management.
+      to: new_user_3
+      sound: none
+- new_user_3:
+    - text: We put the... ass... in password... heh heh. I made that one myself. Do you like it?
+      to: new_user_4
+      sound: none
+- new_user_4:
+    - text: Anyway, I’m your password manager, Chuck. I’ll be taking *burp* care of you.
+      to: new_user_4_a
+      sound: none
+- new_user_4_a:
+    - text: "My boss would like me to let you know that I have an over... *checks notes* 87% password recall rate."
+      to: new_user_5
+      sound: none
+- new_user_5:
+    - text: To get started, first just tell me which account *burp* you want to...
+      to: new_user_6
+      sound: none
+- new_user_6:
+    - text: Oh! Oh! Oh my goooo-*beeelch*-sh. I almost forgot. The sekcret key.
+      to: new_user_7
+      sound: none
+      sprite: chuckHoldBeer
+- new_user_7:
+    - text: You'll need this here secret key if you wanna log in again. Think of it like your favorite beer bottle.
+      to: none
+      sound: none
+- old_user:
+    - text: Welcome back, champ. Gimmie the secret key.
+      to: none
+      sound: none
+- secret_key_given:
+    - text: Got that? Yeah? Well looky here... golden child with the *belch* gooolden memory... aren't you special. Not. Ha!
+      to: none
+      sound: none
+- login_success:
+    - text: Oh yeah... I remember you. Kinda.
+      to: none
+      sound: none
+- login_failure:
+    - text: Oh no... another punk!! Get outta here, you... *belch* kid! You don't have an account with me! Scraaam!
+      to: none
+      sound: none
+- password_not_present:
+    - text: Ha! You never made that one. Like, actually, for real, 100% truthienness, you never entered it. Feels good for it not to be my fault...
+      to: none
+      sound: none
+- create_or_retrieve:
+    - text: "So, what'll it be?"
+      to: none
+      sound: "mainloopp.mp3"
+      sprite: chuckIdle
+- forget_1:
+    - text: $candidate, huh? Yeah, you made it. But I lost that one.
+      to: forget_1_2
+      sound: none
+- forget_1_2:
+    - text: I mean, I could try to... *belch* guess it for you. But I’m not sure if I’ll get it right.
+      to: forget_1_3
+      sound: none
+- forget_1_3:
+    - text: How about... $nonsense?
+      to: forget_1_4
+      sound: none
+- forget_1_4:
+    - text: No? Alright, I got it this time. How about THIS one... $nonsense?
+      to: forget_1_5
+      sound: none
+- forget_1_5:
+    - text: No? Ahhh... that's... too damn bad. Hey, you signed a waiver, ok? Nonverbally. By talking to me.
+      to: forget_1_6
+      sound: none
+- forget_1_6:
+    - text: ...*belch*
+      to: none
+      sound: none
+- forget_2:
+    - text: $candidate, huh? Ueah, you made it, but uh... well let's just say that one escaped ol' *burp* Chuck's mind palace.
+      to: forget_2_2
+      sound: none
+- forget_2_2:
+    - text: L-*burp*look, man… you made this pa*hic*Assword. Ten minutes- *hic* yester- 3 days ago. How can you expect me to remember it now..?
+      to: forget_2_3
+      sound: none
+- forget_2_3:
+    - text: It's a hard job, ok?!
+      to: none
+      sound: none
+- forget_3:
+    - text: Y'know what? NO! I refuse. And not because I *belch* don't remember.
+      to: forget_3_2
+      sound: none
+- forget_3_2:
+    - text:  "...*burp* Can't you remember your own password, jerk? I’ll *burp* wait for you here..."
+      to: none
+      sound: none
+- forget_4:
+    - text: "$candidate... hmmm... yeah, I got that in my notes."
+      to: forget_4_2
+      sound: none
+- forget_4_2:
+    - text: "Ah shit... I spilled beer all over it. Let's *burp* see..."
+      to: forget_4_3
+      sound: none
+- forget_4_3:
+    - text: "I can make out a '$snippet'... a '$snippet', and a '$snippet'. See what you can do with that, kidd- *beeelch* -o."
+      to: none
+      sound: none
+- forget_5:
+    - text: "HA! $candidate! No shot in hell, kid."
+      to: forget_5_2
+      sound: none
+- forget_5_2:
+    - text: "Don't get mad, but I sold it for beer money. You might wanna change it... Or get a new account!! Hahaha..."
+      to: none
+      sound: none
+- midlife_crisis_1:
+    - text: "$candidate... yeah. That one."
+      to: midlife_crisis_1_1
+      sound: silent_1s.mp3
+- midlife_crisis_1_1:
+    - text: "I- I... don't remember. Of course. Of course I don't remember."
+      sound: none
+      to: midlife_crisis_2
+- midlife_crisis_2:
+    - text: "..."
+      to: midlife_crisis_2_2
+      sound: none
+- midlife_crisis_2_2:
+    - text: "Oh chuck, you've fallen so far... *belch*"
+      to: midlife_crisis_3
+      sound: "midwxst.mp3"
+      sprite: chuckCrying
+- midlife_crisis_3:
+    - text: "What am I doing with my life...?"
+      to: midlife_crisis_4
+      sound: none
+      sprite: chuckCrying
+- midlife_crisis_4:
+    - text: "What have I beomcme-*burp*-bcomoe...?"
+      to: midlife_crisis_5
+      sound: none
+      sprite: chuckCrying
+- midlife_crisis_5:
+    - text: "Oh Chuck... you've lost sight of what's important in life *beelch*. Why can't I just enjoy the little things anymore?"
+      to: midlife_crisis_6
+      sound: none
+      sprite: chuckBreakingDown
+- midlife_crisis_6:
+    - text: "My family... oh, God. I loved them so, so much. Especially Chuck Jr. Kid is probably *belch* still around here somewhere..."
+      to: midlife_crisis_7
+      sound: none
+      sprite: chuckBreakingDown
+- midlife_crisis_7:
+    - text: "But they left me. They left ME, *belch*- your old pal, Chuck! Can you beee*LCH* ieve that?"
+      to: midlife_crisis_8
+      sound: none
+      sprite: chuckBreakingDown
+- midlife_crisis_8:
+    - text: "I didn't do anything wrong! I was... was- *burp* a good *burp* dad, husband, and they LEFT ME like an expired bottle of beer..."
+      to: midlife_crisis_9
+      sound: none
+      sprite: chuckAngry
+- midlife_crisis_9:
+    - text: "Those bastards. They left me. *belch* I swear if I ever see them again, I'll-"
+      to: midlife_crisis_10
+      sound: none
+      sprite: chuckAngry
+- midlife_crisis_10:
+    - text: "...*sob*"
+      to: midlife_crisis_11
+      sound: none
+      sprite: chuckBreakingDown
+- midlife_crisis_11:
+    - text: "I'm soso ssorry... *sob*"
+      to: midlife_crisis_11_2
+      sound: none
+      sprite: chuckBreakingDown2
+- midlife_crisis_11_2:
+    - text: "It shouldn't be like this... really, it shouldn't. What's done is done, kiddo. I shouldn't get so *sniff* angry."
+      to: midlife_crisis_12
+      sound: none
+      sprite: chuckBreakingDown2
+- midlife_crisis_12:
+    - text: "Don't be like me, kid... don't be like *sob*... Chuck."
+      to: midlife_crisis_13
+      sound: none
+      sprite: chuckBreakingDown2
+- midlife_crisis_13:
+    - text: "Oh wait... I remember it. It's $password."
+      to: none
+      sound: silent_1s.mp3
+      sprite: chuckIdle
+- chuck_remembers_1:
+    - text: "Oh my god. I know this one!! Yeah, $candidate. I remember it! Really, I do!!"
+      to: chuck_remembers_2
+      sound: silent_1s.mp3
+- chuck_remembers_2:
+    - text: "Okay, uhh, here we go. It's... '$password'. Exactly like that."
+      to: chuck_remembers_3
+      sound: none
+- chuck_remembers_3:
+    - text: "I'm right? I'm right! I'm RIGHT!! Oh God, FINALLY! I'm gonna get a raise... I can finally pay the *belch* alimony!!"
+      to: chuck_remembers_4
+      sound: win_loop.mp3
+      sprite: chuckHappy
+- chuck_remembers_4:
+    - text: "YES. YES. YES! YES! YES!"
+      to: chuck_remembers_5
+      sound: none
+- chuck_remembers_5:
+    - text: "I DID IT! I ACTUALLY DID IT!! Oh, God, yes!!"
+      to: chuck_remembers_6
+      sound: none
+- chuck_remembers_6:
+    - text: "WOOHOO!!! YEAHHH CHUCK!! CHUCK TIME!!! WOOOO!! YEAHH!!"
+      to: chuck_remembers_7
+      sound: none
+- chuck_remembers_7:
+    - text: "$password!! $password!! $password!! YES!! I'll SHOUT IT FROM THE ROOFTOPS!! $password!!!!!!!!!!!"
+      to: chuck_remembers_8
+      sound: none
+- chuck_remembers_8:
+    - text: "Oh yeah. It's chuck time. It's time to get drunk. It's time to get... *burp* wasted. *glug glug glug*"
+      to: chuck_remembers_9
+      sound: none
+      sprite: chuckHoldBeer
+- chuck_remembers_9:
+    - text: "WOO!"
+      to: none
+      sprite: chuckIdle
+      sound: orchhit.mp3
+- baby_1:
+    - text: "Yeah... $candidate. Lemme get that for y-"
+      to: none
+      sound: none
+- baby_2:
+    - text: "Oh god... that must be Chuck Jr. My *belch* sincerest apologies. WHAT DO YOU WANT, CHUCK JR?!"
+      to: none
+      sound: none
+- baby_3:
+    - text: "Pest. Anyway, what were you *belch* sayin'?"
+      to: none
+      sound: none
+- new_password:
+    - text: "Yeah, why not. Let's make a new password. It will be saved on our secure servers. Gimmie *burp* the account name, too."
+      to: none
+      sound: none
+- password_created:
+    - text: "Okay... lemme memorize this... *belch*. $candidate... $password. $candidate... $password. $candidate... $snippet$snippet$snippet..."
+      to: password_created_2
+      sound: none
+- password_created_2:
+    - text: "Wait... that's not it. Eh, it's probably fine."
+      to: none
+      sound: none
+- retrieve_password:
+    - text: "Sure, I'll check our secure, cutting *burp* edge YAML database... Just gimme the account name, pretty *burp* please."
+      to: none
+      sound: none
+
